@@ -4,4 +4,4 @@
 
 [![Generic badge](https://img.shields.io/badge/Python-3.13.0-<green>.svg)](https://shields.io/)
 
-Repositório dedicado para todos os projetos realizados durante o curso de Python da Fatec em parceiria com a huawei
+Repositório dedicado para todos os projetos realizados durante o curso de Python da Fatec em parceiria com a huawei, o nome dos exercícios foram separados em capítulo seguido do identificador de cada exercício.
