@@ -17,10 +17,10 @@ if sexo == 'f' or sexo == 'F':
     if 21 < idade < 34:
         print(f'{nome} de idade {idade} e sexo {sexo} foi aceita para o serviço militar')
     else:
-        print(f'{nome} de idade {idade} e sexo {sexo} foi recusado para o serviço militar')
+        print(f'{nome} de idade {idade} e sexo {sexo} foi recusada para o serviço militar')
 elif sexo == 'm' or sexo == 'M':
     if 18 < idade < 34:
-        print(f'{nome} de idade {idade} e sexo {sexo} foi aceita para o serviço militar')
+        print(f'{nome} de idade {idade} e sexo {sexo} foi aceito para o serviço militar')
     else:
         print(f'{nome} de idade {idade} e sexo {sexo} foi recusado para o serviço militar')
 else:
