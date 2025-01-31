@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+}
+h1 {
+    color: #FFF;
+    text-align: left;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .sidebar__logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .sidebar__logo img{
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    background-color: #121212; /* Cor de fundo */
+    color: #b3b3b3; /* Cor do texto */
+    padding: 4px 8px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: flex; /* Alinhamento dos itens */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    flex-direction: column; /* Direção dos itens */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+.library .library__content{
+    display: flex; /* Alinhamento dos itens */
+    justify-content: space-between; /* Espaçamento entre os itens */
+}
+
+.library .library__button {
+    color: #b3b3b3; /* Cor do texto */
+    padding: 20px 10px; /* Espaçamento interno */
+    border: 0px; /* Borda */
+    font-weight: 700; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    background-color: transparent; /* Cor de fundo */ 
+    display: flex; /* Alinhamento dos itens */
+    margin-right: 10px; /* Espaçamento direito */
+    font-family: "DM Sans", sans-serif; /* Fonte */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Decoração do texto */
+    text-transform: none; /* Transformação do texto */
+}
+
+.library .library__button .fa{
+    font-size: 20px; /* Tamanho do ícone */
+    font-weight: 300; /* Peso da fonte */
+    color: #b3b3b3;
+    margin-right: 10px; /* Espaçamento direito */
+    padding-right: 8px; /* Espaçamento interno direito */
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px; /* Espaçamento */
+     
+}
